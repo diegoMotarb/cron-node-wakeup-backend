@@ -14,7 +14,7 @@ app.use(cors({
 }));
 
 schedule("*/5 * * * *", () => {
-    fetch('https://verlogsrender.onrender.com/', {
+    fetch('https://rubbank-3-backend-diegogmota.onrender.com/', {
         method: "GET"
     })
 }, {
@@ -25,5 +25,5 @@ app.get("/", (req, res) => {
     return res.send("Hello World");
   });
   
-app.listen(process.env.PORT || 3344);
+app.listen(process.env.PORT || 3001);
 
