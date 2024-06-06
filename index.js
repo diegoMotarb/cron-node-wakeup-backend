@@ -17,6 +17,15 @@ schedule("*/5 * * * *", () => {
     fetch('https://rubbank-3-backend-diegogmota.onrender.com/', {
         method: "GET"
     })
+    fetch('https://rubcamp-3-backend-leonardocoradeli.onrender.com', {
+        method: "GET"
+    })
+    fetch('https://rubcamp-3-back-felipewgiovaneli.onrender.com/', {
+        method: "GET"
+    })
+    fetch('https://rubcamp-3-backend-raphael.onrender.com/', {
+        method: "GET"
+    })
 }, {
     timezone: "America/Sao_Paulo"
 });
